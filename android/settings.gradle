@@ -1,0 +1,3 @@
+rootProject.name = 'RN360ImageViewer'
+
+include ':app'
