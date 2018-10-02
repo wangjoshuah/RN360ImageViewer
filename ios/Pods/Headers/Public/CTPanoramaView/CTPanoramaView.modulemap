@@ -1,0 +1,6 @@
+module CTPanoramaView {
+  umbrella header "CTPanoramaView-umbrella.h"
+
+  export *
+  module * { export * }
+}

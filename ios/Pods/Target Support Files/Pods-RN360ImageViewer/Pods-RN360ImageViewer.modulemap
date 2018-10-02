@@ -1,0 +1,6 @@
+module Pods_RN360ImageViewer {
+  umbrella header "Pods-RN360ImageViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}
