@@ -1,13 +1,13 @@
 import React from 'react';
 import {
   AppRegistry,
-  // NativeModules,
+  NativeModules,
   StyleSheet,
   Text,
   View
 } from 'react-native';
 
-// var PanoramaView = NativeModules.PanoramaView;
+var PanoramaView = NativeModules.PanoramaView;
 
 export default class RN360ImageViewer extends React.Component {
   render() {
