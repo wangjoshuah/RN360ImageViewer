@@ -1,14 +1,20 @@
 import React from 'react';
-import { NativeModules, StyleSheet, Text, View } from 'react-native';
+import {
+  AppRegistry,
+  // NativeModules,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
 
-var PanoramaView = NativeModules.PanoramaView;
+// var PanoramaView = NativeModules.PanoramaView;
 
-export default class Index extends React.Component {
+export default class RN360ImageViewer extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <PanoramaView/>
+        <Text>Text above panorama view</Text>
+        <Text>Text under panorama view</Text>
       </View>
     );
   }
@@ -22,3 +28,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+AppRegistry.registerComponent('RN360ImageViewer', () => RN360ImageViewer);
