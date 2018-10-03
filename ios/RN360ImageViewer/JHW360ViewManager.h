@@ -6,11 +6,11 @@
 //  Copyright © 2018 Facebook. All rights reserved.
 //
 
-#import "RCTViewManager.h"
+#import <React/CTBridgeModule.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JHW360ViewManager : RCTViewManager
+@interface JHW360ViewManager : NSObject <RCTBridgeModule>
 
 @end
 

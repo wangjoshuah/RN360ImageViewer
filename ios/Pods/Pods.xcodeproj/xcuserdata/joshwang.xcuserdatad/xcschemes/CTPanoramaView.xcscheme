@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2DCFAEDBFE2A9FFBA63DFCD90F21464C"
+               BlueprintIdentifier = "FBA431458AF24B4EDC01ED4358B72C1C"
                BlueprintName = "CTPanoramaView"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libCTPanoramaView.a">
+               BuildableName = "CTPanoramaView.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

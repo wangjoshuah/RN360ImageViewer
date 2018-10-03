@@ -7,247 +7,198 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06F364227A6EA738F786CACB7EDB0C18 /* CTPanoramaView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4478FCD44CE91F2E5E2F5D798FE8B5 /* CTPanoramaView-dummy.m */; };
-		1091B4CF5E08A291B216BE61AF0CAF19 /* Pods-RN360ImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEC02298853BA2FB8D1471880ED02FC /* Pods-RN360ImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1E3FCD21090E983E28606816219DA28D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
-		46C119B5BA027A003A97425090147042 /* CTPieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76669B57B227F8C47BFF2EFA42D3061E /* CTPieSliceView.swift */; };
-		6A25E18861D4A92451F87EE11DCA348B /* CTPanoramaView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9494643A9ECF2B2CB3F461D93EED62 /* CTPanoramaView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C4979B94FEC686AD822FF978B7E0F6F8 /* Pods-RN360ImageViewerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D204E8A9631946CBC0A43FC6AAEFA /* Pods-RN360ImageViewerTests-dummy.m */; };
-		E1CCC019086EA1A437B8DB1F5C461546 /* CTPanoramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1119C4B1223904A9219F149E8D086C32 /* CTPanoramaView.swift */; };
-		E3078FA03CB50CF11EF92364FB69C7C5 /* Pods-RN360ImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4938196A14F132D2A489F90D5BA70B25 /* Pods-RN360ImageViewer-dummy.m */; };
+		0083E5FC1F38AE4A9FF23B045E47390A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		174FD1F083A1E5519261B3B87F910D9D /* CTPanoramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076619D3BAF72830D3500ACCC5C59C91 /* CTPanoramaView.swift */; };
+		1A89EF205C9107CB90C0A6C1C462361C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		4CD63CE6240EC1FFC5754F5D5202B7EE /* CTPieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3638561A6B9DF0ECE539473D9FFD4 /* CTPieSliceView.swift */; };
+		703304DD677CB7607CE7029245395840 /* Pods-RN360ImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C93EFA62665042D04508E8055E5A88 /* Pods-RN360ImageViewer-dummy.m */; };
+		A3EF4BECCD1ED50E39E48C6E268CE29E /* CTPanoramaView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD86943B2748AAC58CBAAACC025BD /* CTPanoramaView-dummy.m */; };
+		B166D838DF684F6839555F7053AEC450 /* Pods-RN360ImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F2C108C38F2C635D2ADFDB921E68C7 /* Pods-RN360ImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D17B1CE6783A46455582F64D4A77A86B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		FD63EC47B6C0BFC174FE1C5E313AD38F /* CTPanoramaView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECAFD9A438601FD162A985A646CF6080 /* CTPanoramaView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E92CA068FC8BB33FE59C709FD8425807 /* PBXContainerItemProxy */ = {
+		4F1F644AD3D160655BDE1CCFBCBB6280 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 88DE831487CDAC3430B9D297E473A75C;
-			remoteInfo = "Pods-RN360ImageViewer";
-		};
-		FB94D93F9763727A74C8A3C05641F761 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2DCFAEDBFE2A9FFBA63DFCD90F21464C;
+			remoteGlobalIDString = FBA431458AF24B4EDC01ED4358B72C1C;
 			remoteInfo = CTPanoramaView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F4478FCD44CE91F2E5E2F5D798FE8B5 /* CTPanoramaView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTPanoramaView-dummy.m"; sourceTree = "<group>"; };
-		1119C4B1223904A9219F149E8D086C32 /* CTPanoramaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTPanoramaView.swift; path = Source/CTPanoramaView.swift; sourceTree = "<group>"; };
-		14C6BF2C3264ACE03096B52ED5F86B07 /* Pods-RN360ImageViewer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RN360ImageViewer-frameworks.sh"; sourceTree = "<group>"; };
-		16C23A8487455D0C4237F9E04DF7CA6A /* Pods-RN360ImageViewerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RN360ImageViewerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		26F5FC00F2E85E52B1D9371E5BB6D649 /* Pods-RN360ImageViewerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RN360ImageViewerTests-resources.sh"; sourceTree = "<group>"; };
-		35EC4A7563A3DCE80B9FC0FC50D8DFD2 /* Pods-RN360ImageViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RN360ImageViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		366DF72C4D5D9C32E6C9A99C2FC5D581 /* CTPanoramaView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = CTPanoramaView.modulemap; path = ../../Headers/Public/CTPanoramaView/CTPanoramaView.modulemap; sourceTree = "<group>"; };
-		4938196A14F132D2A489F90D5BA70B25 /* Pods-RN360ImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RN360ImageViewer-dummy.m"; sourceTree = "<group>"; };
-		4CBA25DEF11CC2005D8AA316D6B851F6 /* CTPanoramaView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTPanoramaView-prefix.pch"; sourceTree = "<group>"; };
-		4F182A86F37F80B99542A9CAE77A953F /* Pods-RN360ImageViewer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RN360ImageViewer-resources.sh"; sourceTree = "<group>"; };
-		5208B1A3294D1B9C522858824658E755 /* libCTPanoramaView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTPanoramaView.a; path = libCTPanoramaView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		55BD6E28BAEA242C580BE33FA40B4D5F /* libPods-RN360ImageViewerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RN360ImageViewerTests.a"; path = "libPods-RN360ImageViewerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D9494643A9ECF2B2CB3F461D93EED62 /* CTPanoramaView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPanoramaView-umbrella.h"; path = "../../Headers/Public/CTPanoramaView/CTPanoramaView-umbrella.h"; sourceTree = "<group>"; };
-		6FEF7983EBCDB0A1D419BEBD04ACE037 /* Pods-RN360ImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RN360ImageViewer.modulemap"; sourceTree = "<group>"; };
-		76669B57B227F8C47BFF2EFA42D3061E /* CTPieSliceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTPieSliceView.swift; path = Source/CTPieSliceView.swift; sourceTree = "<group>"; };
-		7A49AFD0713748C6125C538140D13A5A /* Pods-RN360ImageViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RN360ImageViewer.release.xcconfig"; sourceTree = "<group>"; };
-		7AEC02298853BA2FB8D1471880ED02FC /* Pods-RN360ImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RN360ImageViewer-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BD89334924C0419A4121691FAD1AACE /* libPods-RN360ImageViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RN360ImageViewer.a"; path = "libPods-RN360ImageViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DD6197BE3FE4379485C767BB7C8C80A /* Pods-RN360ImageViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RN360ImageViewerTests.release.xcconfig"; sourceTree = "<group>"; };
-		AC8049EB9261A6DD4DCE256A2806EF46 /* Pods-RN360ImageViewer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RN360ImageViewer-acknowledgements.plist"; sourceTree = "<group>"; };
-		AD3912CCD1931AD3C6BB428504878753 /* CTPanoramaView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTPanoramaView.xcconfig; sourceTree = "<group>"; };
-		BB360D29FD203BCB6D8F4651E886C87D /* Pods-RN360ImageViewerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RN360ImageViewerTests-frameworks.sh"; sourceTree = "<group>"; };
-		BF5688BE86D197A105C94E620F0909E6 /* Pods-RN360ImageViewer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RN360ImageViewer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DD46FBC041420035C341CC6342582587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E14D204E8A9631946CBC0A43FC6AAEFA /* Pods-RN360ImageViewerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RN360ImageViewerTests-dummy.m"; sourceTree = "<group>"; };
-		E68DFAC78CF3F2368681D1E187E3EE1C /* Pods-RN360ImageViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RN360ImageViewer.debug.xcconfig"; sourceTree = "<group>"; };
-		EA945CC23AC04D16FA6F88E7587B20D7 /* Pods-RN360ImageViewerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RN360ImageViewerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		076619D3BAF72830D3500ACCC5C59C91 /* CTPanoramaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTPanoramaView.swift; path = Source/CTPanoramaView.swift; sourceTree = "<group>"; };
+		0EC87F355A0FA86F4EF14298127E64D4 /* Pods-RN360ImageViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RN360ImageViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		1D06B0E6E2ADB70964E80A87C4DD7E05 /* Pods-RN360ImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RN360ImageViewer.modulemap"; sourceTree = "<group>"; };
+		330D12FCC82B123705357767B5308DB8 /* Pods-RN360ImageViewer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RN360ImageViewer-acknowledgements.plist"; sourceTree = "<group>"; };
+		51DE47E028C4935E019EBD281263715A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6637DDF7A0401388CF1687E800618630 /* Pods-RN360ImageViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RN360ImageViewer.release.xcconfig"; sourceTree = "<group>"; };
+		794F4DEC00D3D314B3381DBD6E0A27D7 /* CTPanoramaView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTPanoramaView-prefix.pch"; sourceTree = "<group>"; };
+		83CEC5F651D5DB6698DAE77C0B1E419D /* Pods-RN360ImageViewer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RN360ImageViewer-frameworks.sh"; sourceTree = "<group>"; };
+		88A180AADEBE977F18E978F4ED746E13 /* Pods_RN360ImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RN360ImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9791FD50E384E1BA6EDC3384BECA7CD3 /* Pods-RN360ImageViewer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RN360ImageViewer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6C3638561A6B9DF0ECE539473D9FFD4 /* CTPieSliceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTPieSliceView.swift; path = Source/CTPieSliceView.swift; sourceTree = "<group>"; };
+		AC752D9147502A100CC184261AB9030B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C93EFA62665042D04508E8055E5A88 /* Pods-RN360ImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RN360ImageViewer-dummy.m"; sourceTree = "<group>"; };
+		B5F2C108C38F2C635D2ADFDB921E68C7 /* Pods-RN360ImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RN360ImageViewer-umbrella.h"; sourceTree = "<group>"; };
+		B7DDD86943B2748AAC58CBAAACC025BD /* CTPanoramaView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTPanoramaView-dummy.m"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CFC9DBE61C85E6AF86C976FC236641A0 /* Pods-RN360ImageViewer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RN360ImageViewer-resources.sh"; sourceTree = "<group>"; };
+		E7F8D4200BD9B3E04DC075ECF8BFBFB8 /* CTPanoramaView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTPanoramaView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAFD9A438601FD162A985A646CF6080 /* CTPanoramaView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTPanoramaView-umbrella.h"; sourceTree = "<group>"; };
+		F097076BB1A5AD5AEA5389D540EC03D8 /* CTPanoramaView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTPanoramaView.modulemap; sourceTree = "<group>"; };
+		F5B7CCB673D874DBD55DE9B50D379126 /* CTPanoramaView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTPanoramaView.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6BA163BF7BBB16DE7C9B78991EDBF5C3 /* Frameworks */ = {
+		71E27A87BB73D66A918877A46414560B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E3FCD21090E983E28606816219DA28D /* UIKit.framework in Frameworks */,
+				0083E5FC1F38AE4A9FF23B045E47390A /* Foundation.framework in Frameworks */,
+				1A89EF205C9107CB90C0A6C1C462361C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C1FCFA8CFF010D7A83D94D614A7CC50 /* Frameworks */ = {
+		D3D6944F2F59AA14D75FD06CD2FD750A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B050612AC091BA1573492D4E634624BC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D17B1CE6783A46455582F64D4A77A86B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B1ED98752E55A7A6880557DC28971B5 /* CTPanoramaView */ = {
+		02B222D16E128AC477E604E5A7F9684D /* CTPanoramaView */ = {
 			isa = PBXGroup;
 			children = (
-				1119C4B1223904A9219F149E8D086C32 /* CTPanoramaView.swift */,
-				76669B57B227F8C47BFF2EFA42D3061E /* CTPieSliceView.swift */,
-				572088E06FDB6D6DFF27E93DD31F2F0A /* Support Files */,
+				076619D3BAF72830D3500ACCC5C59C91 /* CTPanoramaView.swift */,
+				A6C3638561A6B9DF0ECE539473D9FFD4 /* CTPieSliceView.swift */,
+				7DA01585C1889B0E4AAD118277EAF778 /* Support Files */,
 			);
-			name = CTPanoramaView;
 			path = CTPanoramaView;
 			sourceTree = "<group>";
 		};
-		3625D8F15BF9A78018CD4AC1C8335BDE /* Products */ = {
+		105DAC77C5AE9AAC04E77D3B613BC8EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5208B1A3294D1B9C522858824658E755 /* libCTPanoramaView.a */,
-				9BD89334924C0419A4121691FAD1AACE /* libPods-RN360ImageViewer.a */,
-				55BD6E28BAEA242C580BE33FA40B4D5F /* libPods-RN360ImageViewerTests.a */,
+				E7F8D4200BD9B3E04DC075ECF8BFBFB8 /* CTPanoramaView.framework */,
+				88A180AADEBE977F18E978F4ED746E13 /* Pods_RN360ImageViewer.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3549489B17A1C6B23072B4E30AB56A04 /* Pods-RN360ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				51DE47E028C4935E019EBD281263715A /* Info.plist */,
+				1D06B0E6E2ADB70964E80A87C4DD7E05 /* Pods-RN360ImageViewer.modulemap */,
+				9791FD50E384E1BA6EDC3384BECA7CD3 /* Pods-RN360ImageViewer-acknowledgements.markdown */,
+				330D12FCC82B123705357767B5308DB8 /* Pods-RN360ImageViewer-acknowledgements.plist */,
+				B1C93EFA62665042D04508E8055E5A88 /* Pods-RN360ImageViewer-dummy.m */,
+				83CEC5F651D5DB6698DAE77C0B1E419D /* Pods-RN360ImageViewer-frameworks.sh */,
+				CFC9DBE61C85E6AF86C976FC236641A0 /* Pods-RN360ImageViewer-resources.sh */,
+				B5F2C108C38F2C635D2ADFDB921E68C7 /* Pods-RN360ImageViewer-umbrella.h */,
+				0EC87F355A0FA86F4EF14298127E64D4 /* Pods-RN360ImageViewer.debug.xcconfig */,
+				6637DDF7A0401388CF1687E800618630 /* Pods-RN360ImageViewer.release.xcconfig */,
+			);
+			name = "Pods-RN360ImageViewer";
+			path = "Target Support Files/Pods-RN360ImageViewer";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		52B76BA1F38AB7CF12B7BB88FD5533EC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0B1ED98752E55A7A6880557DC28971B5 /* CTPanoramaView */,
+				02B222D16E128AC477E604E5A7F9684D /* CTPanoramaView */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		572088E06FDB6D6DFF27E93DD31F2F0A /* Support Files */ = {
+		7DA01585C1889B0E4AAD118277EAF778 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				366DF72C4D5D9C32E6C9A99C2FC5D581 /* CTPanoramaView.modulemap */,
-				AD3912CCD1931AD3C6BB428504878753 /* CTPanoramaView.xcconfig */,
-				0F4478FCD44CE91F2E5E2F5D798FE8B5 /* CTPanoramaView-dummy.m */,
-				4CBA25DEF11CC2005D8AA316D6B851F6 /* CTPanoramaView-prefix.pch */,
-				5D9494643A9ECF2B2CB3F461D93EED62 /* CTPanoramaView-umbrella.h */,
+				F097076BB1A5AD5AEA5389D540EC03D8 /* CTPanoramaView.modulemap */,
+				F5B7CCB673D874DBD55DE9B50D379126 /* CTPanoramaView.xcconfig */,
+				B7DDD86943B2748AAC58CBAAACC025BD /* CTPanoramaView-dummy.m */,
+				794F4DEC00D3D314B3381DBD6E0A27D7 /* CTPanoramaView-prefix.pch */,
+				ECAFD9A438601FD162A985A646CF6080 /* CTPanoramaView-umbrella.h */,
+				AC752D9147502A100CC184261AB9030B /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CTPanoramaView";
-			sourceTree = "<group>";
-		};
-		70D0762A5135292A81C528924D79E550 /* Pods-RN360ImageViewerTests */ = {
-			isa = PBXGroup;
-			children = (
-				16C23A8487455D0C4237F9E04DF7CA6A /* Pods-RN360ImageViewerTests-acknowledgements.markdown */,
-				EA945CC23AC04D16FA6F88E7587B20D7 /* Pods-RN360ImageViewerTests-acknowledgements.plist */,
-				E14D204E8A9631946CBC0A43FC6AAEFA /* Pods-RN360ImageViewerTests-dummy.m */,
-				BB360D29FD203BCB6D8F4651E886C87D /* Pods-RN360ImageViewerTests-frameworks.sh */,
-				26F5FC00F2E85E52B1D9371E5BB6D649 /* Pods-RN360ImageViewerTests-resources.sh */,
-				35EC4A7563A3DCE80B9FC0FC50D8DFD2 /* Pods-RN360ImageViewerTests.debug.xcconfig */,
-				9DD6197BE3FE4379485C767BB7C8C80A /* Pods-RN360ImageViewerTests.release.xcconfig */,
-			);
-			name = "Pods-RN360ImageViewerTests";
-			path = "Target Support Files/Pods-RN360ImageViewerTests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				52B76BA1F38AB7CF12B7BB88FD5533EC /* Pods */,
-				3625D8F15BF9A78018CD4AC1C8335BDE /* Products */,
-				DF22EEC3933C00831301DC2210DFFAE5 /* Targets Support Files */,
+				105DAC77C5AE9AAC04E77D3B613BC8EF /* Products */,
+				E03FC655E2651C38501D5F3F37C7BFA5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		E03FC655E2651C38501D5F3F37C7BFA5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF5B08143E740C3777FEB0D3A952141C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DEAC222E87F48073CF7D3FD21339D7A6 /* Pods-RN360ImageViewer */ = {
-			isa = PBXGroup;
-			children = (
-				6FEF7983EBCDB0A1D419BEBD04ACE037 /* Pods-RN360ImageViewer.modulemap */,
-				BF5688BE86D197A105C94E620F0909E6 /* Pods-RN360ImageViewer-acknowledgements.markdown */,
-				AC8049EB9261A6DD4DCE256A2806EF46 /* Pods-RN360ImageViewer-acknowledgements.plist */,
-				4938196A14F132D2A489F90D5BA70B25 /* Pods-RN360ImageViewer-dummy.m */,
-				14C6BF2C3264ACE03096B52ED5F86B07 /* Pods-RN360ImageViewer-frameworks.sh */,
-				4F182A86F37F80B99542A9CAE77A953F /* Pods-RN360ImageViewer-resources.sh */,
-				7AEC02298853BA2FB8D1471880ED02FC /* Pods-RN360ImageViewer-umbrella.h */,
-				E68DFAC78CF3F2368681D1E187E3EE1C /* Pods-RN360ImageViewer.debug.xcconfig */,
-				7A49AFD0713748C6125C538140D13A5A /* Pods-RN360ImageViewer.release.xcconfig */,
-			);
-			name = "Pods-RN360ImageViewer";
-			path = "Target Support Files/Pods-RN360ImageViewer";
-			sourceTree = "<group>";
-		};
-		DF22EEC3933C00831301DC2210DFFAE5 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DEAC222E87F48073CF7D3FD21339D7A6 /* Pods-RN360ImageViewer */,
-				70D0762A5135292A81C528924D79E550 /* Pods-RN360ImageViewerTests */,
+				3549489B17A1C6B23072B4E30AB56A04 /* Pods-RN360ImageViewer */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FF5B08143E740C3777FEB0D3A952141C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				DD46FBC041420035C341CC6342582587 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B6F707EDCD9FD8D4AE4B5BB1721CE84D /* Headers */ = {
+		112C7BDECC2B8CC6C582BC1C9E0FC8D2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1091B4CF5E08A291B216BE61AF0CAF19 /* Pods-RN360ImageViewer-umbrella.h in Headers */,
+				B166D838DF684F6839555F7053AEC450 /* Pods-RN360ImageViewer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEB9925E4808338F1DA1DB68025A0FE1 /* Headers */ = {
+		4905CFFD79CA474AB59030A6B6E12DA5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A25E18861D4A92451F87EE11DCA348B /* CTPanoramaView-umbrella.h in Headers */,
+				FD63EC47B6C0BFC174FE1C5E313AD38F /* CTPanoramaView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0E5B7B448B19EFAEA302FE6F0EC966B9 /* Pods-RN360ImageViewerTests */ = {
+		FBA431458AF24B4EDC01ED4358B72C1C /* CTPanoramaView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60CFA1B570D433286DD310DBCCF5D948 /* Build configuration list for PBXNativeTarget "Pods-RN360ImageViewerTests" */;
+			buildConfigurationList = D3BDB69864E9B3693CC2E8B047EDC198 /* Build configuration list for PBXNativeTarget "CTPanoramaView" */;
 			buildPhases = (
-				D9F1556B3F460A5C71CFCF6450A7A9C6 /* Sources */,
-				9C1FCFA8CFF010D7A83D94D614A7CC50 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B353C0D6B3D77D4F0AF3F7505F56C22E /* PBXTargetDependency */,
-			);
-			name = "Pods-RN360ImageViewerTests";
-			productName = "Pods-RN360ImageViewerTests";
-			productReference = 55BD6E28BAEA242C580BE33FA40B4D5F /* libPods-RN360ImageViewerTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		2DCFAEDBFE2A9FFBA63DFCD90F21464C /* CTPanoramaView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3951AD630E6A5EE3E84B5D3A438CB41 /* Build configuration list for PBXNativeTarget "CTPanoramaView" */;
-			buildPhases = (
-				5FE24E569C29915860E4F00B035FD697 /* Sources */,
-				6BA163BF7BBB16DE7C9B78991EDBF5C3 /* Frameworks */,
-				DEB9925E4808338F1DA1DB68025A0FE1 /* Headers */,
-				E65297EC157B1CC2EE6122EF895876D9 /* Copy generated compatibility header */,
+				347BA32787A35D8B7E91A785454505D9 /* Sources */,
+				71E27A87BB73D66A918877A46414560B /* Frameworks */,
+				4905CFFD79CA474AB59030A6B6E12DA5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -255,26 +206,26 @@
 			);
 			name = CTPanoramaView;
 			productName = CTPanoramaView;
-			productReference = 5208B1A3294D1B9C522858824658E755 /* libCTPanoramaView.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = E7F8D4200BD9B3E04DC075ECF8BFBFB8 /* CTPanoramaView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		88DE831487CDAC3430B9D297E473A75C /* Pods-RN360ImageViewer */ = {
+		FCBFC70E5ACCE820220FA24C2C625631 /* Pods-RN360ImageViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 119BAE9237148F72CD2EBB28EDC97052 /* Build configuration list for PBXNativeTarget "Pods-RN360ImageViewer" */;
+			buildConfigurationList = 090CFDE88DBF11C6610ACC17C9D5CD51 /* Build configuration list for PBXNativeTarget "Pods-RN360ImageViewer" */;
 			buildPhases = (
-				E60319610E47E2ECBBF771F2093CCE9C /* Sources */,
-				B050612AC091BA1573492D4E634624BC /* Frameworks */,
-				B6F707EDCD9FD8D4AE4B5BB1721CE84D /* Headers */,
+				7D59C65C3C704031094BF4E0E02538B1 /* Sources */,
+				D3D6944F2F59AA14D75FD06CD2FD750A /* Frameworks */,
+				112C7BDECC2B8CC6C582BC1C9E0FC8D2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7B1DACE775FBEBDEEA0B80CD955FC9D6 /* PBXTargetDependency */,
+				EB2B546E41371287DD89D6BDB3621450 /* PBXTargetDependency */,
 			);
 			name = "Pods-RN360ImageViewer";
 			productName = "Pods-RN360ImageViewer";
-			productReference = 9BD89334924C0419A4121691FAD1AACE /* libPods-RN360ImageViewer.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 88A180AADEBE977F18E978F4ED746E13 /* Pods_RN360ImageViewer.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -293,107 +244,47 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3625D8F15BF9A78018CD4AC1C8335BDE /* Products */;
+			productRefGroup = 105DAC77C5AE9AAC04E77D3B613BC8EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2DCFAEDBFE2A9FFBA63DFCD90F21464C /* CTPanoramaView */,
-				88DE831487CDAC3430B9D297E473A75C /* Pods-RN360ImageViewer */,
-				0E5B7B448B19EFAEA302FE6F0EC966B9 /* Pods-RN360ImageViewerTests */,
+				FBA431458AF24B4EDC01ED4358B72C1C /* CTPanoramaView */,
+				FCBFC70E5ACCE820220FA24C2C625631 /* Pods-RN360ImageViewer */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		E65297EC157B1CC2EE6122EF895876D9 /* Copy generated compatibility header */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/CTPanoramaView/CTPanoramaView.modulemap",
-				"${PODS_ROOT}/Headers/Public/CTPanoramaView/CTPanoramaView-umbrella.h",
-			);
-			name = "Copy generated compatibility header";
-			outputPaths = (
-				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/CTPanoramaView-umbrella.h",
-				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CTPanoramaView/CTPanoramaView.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CTPanoramaView/CTPanoramaView-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-			showEnvVarsInLog = 1;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		5FE24E569C29915860E4F00B035FD697 /* Sources */ = {
+		347BA32787A35D8B7E91A785454505D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06F364227A6EA738F786CACB7EDB0C18 /* CTPanoramaView-dummy.m in Sources */,
-				E1CCC019086EA1A437B8DB1F5C461546 /* CTPanoramaView.swift in Sources */,
-				46C119B5BA027A003A97425090147042 /* CTPieSliceView.swift in Sources */,
+				A3EF4BECCD1ED50E39E48C6E268CE29E /* CTPanoramaView-dummy.m in Sources */,
+				174FD1F083A1E5519261B3B87F910D9D /* CTPanoramaView.swift in Sources */,
+				4CD63CE6240EC1FFC5754F5D5202B7EE /* CTPieSliceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9F1556B3F460A5C71CFCF6450A7A9C6 /* Sources */ = {
+		7D59C65C3C704031094BF4E0E02538B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4979B94FEC686AD822FF978B7E0F6F8 /* Pods-RN360ImageViewerTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E60319610E47E2ECBBF771F2093CCE9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3078FA03CB50CF11EF92364FB69C7C5 /* Pods-RN360ImageViewer-dummy.m in Sources */,
+				703304DD677CB7607CE7029245395840 /* Pods-RN360ImageViewer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7B1DACE775FBEBDEEA0B80CD955FC9D6 /* PBXTargetDependency */ = {
+		EB2B546E41371287DD89D6BDB3621450 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CTPanoramaView;
-			target = 2DCFAEDBFE2A9FFBA63DFCD90F21464C /* CTPanoramaView */;
-			targetProxy = FB94D93F9763727A74C8A3C05641F761 /* PBXContainerItemProxy */;
-		};
-		B353C0D6B3D77D4F0AF3F7505F56C22E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-RN360ImageViewer";
-			target = 88DE831487CDAC3430B9D297E473A75C /* Pods-RN360ImageViewer */;
-			targetProxy = E92CA068FC8BB33FE59C709FD8425807 /* PBXContainerItemProxy */;
+			target = FBA431458AF24B4EDC01ED4358B72C1C /* CTPanoramaView */;
+			targetProxy = 4F1F644AD3D160655BDE1CCFBCBB6280 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1D6FF7A5B344E797FC3C8C89D42B8C8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35EC4A7563A3DCE80B9FC0FC50D8DFD2 /* Pods-RN360ImageViewerTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -457,126 +348,140 @@
 			};
 			name = Debug;
 		};
-		320296B662B8CD362E384AD0015D200F /* Debug */ = {
+		46804727252E608F1F557EE6B6B66D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD3912CCD1931AD3C6BB428504878753 /* CTPanoramaView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CTPanoramaView/CTPanoramaView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = Headers/Public/CTPanoramaView/CTPanoramaView.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CTPanoramaView;
-				PRODUCT_NAME = CTPanoramaView;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A1FED6EB93BF2F5841ED0D6E05B975A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DD6197BE3FE4379485C767BB7C8C80A /* Pods-RN360ImageViewerTests.release.xcconfig */;
+			baseConfigurationReference = 0EC87F355A0FA86F4EF14298127E64D4 /* Pods-RN360ImageViewer.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RN360ImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CEDE5A80DE8B9E8C74A586A0F0BEE382 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD3912CCD1931AD3C6BB428504878753 /* CTPanoramaView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CTPanoramaView/CTPanoramaView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = Headers/Public/CTPanoramaView/CTPanoramaView.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CTPanoramaView;
-				PRODUCT_NAME = CTPanoramaView;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D135A9C1D3A5430447024627FE2D9E6A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A49AFD0713748C6125C538140D13A5A /* Pods-RN360ImageViewer.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RN360ImageViewer/Pods-RN360ImageViewer.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EC48753C6C293A19490F56A387768E3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E68DFAC78CF3F2368681D1E187E3EE1C /* Pods-RN360ImageViewer.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RN360ImageViewer/Pods-RN360ImageViewer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		4E1924D96FDF0DA080345BCEF4ED76F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B7CCB673D874DBD55DE9B50D379126 /* CTPanoramaView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTPanoramaView/CTPanoramaView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTPanoramaView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTPanoramaView/CTPanoramaView.modulemap";
+				PRODUCT_MODULE_NAME = CTPanoramaView;
+				PRODUCT_NAME = CTPanoramaView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		930A0DAB97DB3CA2E2FBFE982ED25B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B7CCB673D874DBD55DE9B50D379126 /* CTPanoramaView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTPanoramaView/CTPanoramaView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTPanoramaView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTPanoramaView/CTPanoramaView.modulemap";
+				PRODUCT_MODULE_NAME = CTPanoramaView;
+				PRODUCT_NAME = CTPanoramaView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F967DA698A719FFE698BE8DAD2976B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6637DDF7A0401388CF1687E800618630 /* Pods-RN360ImageViewer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RN360ImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RN360ImageViewer/Pods-RN360ImageViewer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -639,11 +544,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		119BAE9237148F72CD2EBB28EDC97052 /* Build configuration list for PBXNativeTarget "Pods-RN360ImageViewer" */ = {
+		090CFDE88DBF11C6610ACC17C9D5CD51 /* Build configuration list for PBXNativeTarget "Pods-RN360ImageViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC48753C6C293A19490F56A387768E3E /* Debug */,
-				D135A9C1D3A5430447024627FE2D9E6A /* Release */,
+				46804727252E608F1F557EE6B6B66D79 /* Debug */,
+				9F967DA698A719FFE698BE8DAD2976B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -657,20 +562,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60CFA1B570D433286DD310DBCCF5D948 /* Build configuration list for PBXNativeTarget "Pods-RN360ImageViewerTests" */ = {
+		D3BDB69864E9B3693CC2E8B047EDC198 /* Build configuration list for PBXNativeTarget "CTPanoramaView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D6FF7A5B344E797FC3C8C89D42B8C8F /* Debug */,
-				A1FED6EB93BF2F5841ED0D6E05B975A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3951AD630E6A5EE3E84B5D3A438CB41 /* Build configuration list for PBXNativeTarget "CTPanoramaView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				320296B662B8CD362E384AD0015D200F /* Debug */,
-				CEDE5A80DE8B9E8C74A586A0F0BEE382 /* Release */,
+				4E1924D96FDF0DA080345BCEF4ED76F2 /* Debug */,
+				930A0DAB97DB3CA2E2FBFE982ED25B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

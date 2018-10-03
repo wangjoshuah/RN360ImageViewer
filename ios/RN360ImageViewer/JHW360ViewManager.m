@@ -10,4 +10,7 @@
 
 @implementation JHW360ViewManager
 
+// Export the module to React Native
+RCT_EXPORT_MODULE(PanoramaView);
+
 @end

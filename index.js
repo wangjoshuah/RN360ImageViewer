@@ -3,7 +3,7 @@ import { NativeModules, StyleSheet, Text, View } from 'react-native';
 
 var PanoramaView = NativeModules.PanoramaView;
 
-export default class App extends React.Component {
+export default class Index extends React.Component {
   render() {
     return (
       <View style={styles.container}>
