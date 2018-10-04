@@ -1,5 +1,5 @@
 //
-//  JHW360ViewManager.h
+//  JHWPanoramaViewManager.h
 //  RN360ImageViewer
 //
 //  Created by Josh Wang on 10/2/18.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JHW360ViewManager : RCTViewManager
+@interface JHWPanoramaViewManager : RCTViewManager
 
 @end
 
