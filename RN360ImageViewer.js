@@ -16,7 +16,13 @@ export default class RN360ImageViewer extends React.Component {
     return (
       <View style={styles.container}>
         <Text>Panorama View</Text>
-        <PanoramaView/>
+        <PanoramaView
+          style={{
+            backgroundColor: 'red',
+            width: 200,
+            height: 200
+          }}
+        />
       </View>
     );
   }

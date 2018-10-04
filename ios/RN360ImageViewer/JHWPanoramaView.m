@@ -6,6 +6,7 @@
 //  Copyright © 2018 Facebook. All rights reserved.
 //
 
+#import <React/UIView+React.h>
 #import "JHWPanoramaView.h"
 
 @implementation JHWPanoramaView
@@ -14,12 +15,19 @@
   __weak RCTBridge *_bridge;
 }
 
+RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
+
 - (instancetype)initWithFrame:(CGRect)frame
 {
   NSLog(@"[JHW][PanoramaView] initWithFrame");
   self = [super initWithFrame:frame];
   if (self) {
-    [self commonInit];
+    NSLog(@"[JHW][PanoramaView] commonInit");
+    self.backgroundColor = [UIColor blueColor];
+    CTPanoramaView *panoramaView = [[CTPanoramaView alloc]
+                                    initWithFrame:frame
+                                    image:[UIImage imageNamed:@"R0010020"]];
+    [self addSubview:panoramaView];
   }
   return self;
 }
@@ -40,7 +48,7 @@
   NSLog(@"[JHW][PanoramaView] commonInit");
   self.backgroundColor = [UIColor blueColor];
   CTPanoramaView *panoramaView = [[CTPanoramaView alloc]
-                                  initWithFrame:CGRectMake(0, 0, 100, 100)
+                                  initWithFrame:self.bounds
                                   image:[UIImage imageNamed:@"R0010020"]];
   [self addSubview:panoramaView];
 }
