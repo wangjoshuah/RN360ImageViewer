@@ -40,7 +40,7 @@
   NSLog(@"[JHW][PanoramaView] commonInit");
   self.backgroundColor = [UIColor blueColor];
   CTPanoramaView *panoramaView = [[CTPanoramaView alloc]
-                                  initWithFrame:self.frame
+                                  initWithFrame:CGRectMake(0, 0, 100, 100)
                                   image:[UIImage imageNamed:@"R0010020"]];
   [self addSubview:panoramaView];
 }
