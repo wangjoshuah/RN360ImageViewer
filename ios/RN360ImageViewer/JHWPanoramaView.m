@@ -23,9 +23,8 @@ RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
   self = [super initWithFrame:frame];
   if (self) {
     NSLog(@"[JHW][PanoramaView] commonInit");
-    self.backgroundColor = [UIColor blueColor];
     CTPanoramaView *panoramaView = [[CTPanoramaView alloc]
-                                    initWithFrame:frame
+                                    initWithFrame:CGRectMake(0, 0, 100, 100)
                                     image:[UIImage imageNamed:@"R0010020"]];
     [self addSubview:panoramaView];
   }
@@ -46,9 +45,8 @@ RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
 - (void)commonInit
 {
   NSLog(@"[JHW][PanoramaView] commonInit");
-  self.backgroundColor = [UIColor blueColor];
   CTPanoramaView *panoramaView = [[CTPanoramaView alloc]
-                                  initWithFrame:self.bounds
+                                  initWithFrame:CGRectMake(0, 0, 200, 100)
                                   image:[UIImage imageNamed:@"R0010020"]];
   [self addSubview:panoramaView];
 }
