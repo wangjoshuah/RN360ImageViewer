@@ -19,34 +19,21 @@ RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
-  NSLog(@"[JHW][PanoramaView] initWithFrame");
   self = [super initWithFrame:frame];
-  if (self) {
-    NSLog(@"[JHW][PanoramaView] commonInit");
-    CTPanoramaView *panoramaView = [[CTPanoramaView alloc]
-                                    initWithFrame:CGRectMake(0, 0, 100, 100)
-                                    image:[UIImage imageNamed:@"R0010020"]];
-    [self addSubview:panoramaView];
-  }
   return self;
 }
 
 - (instancetype)initWithBridge:(RCTBridge *)bridge
 {
-  NSLog(@"[JHW][PanoramaView] initWithBridge");
   _bridge = bridge;
   self = [super init];
-  if (self) {
-    [self commonInit];
-  }
   return self;
 }
 
-- (void)commonInit
-{
-  NSLog(@"[JHW][PanoramaView] commonInit");
+- (void)layoutSubviews {
+  NSLog(@"[JHW][PanoramaView] layoutSubviews");
   CTPanoramaView *panoramaView = [[CTPanoramaView alloc]
-                                  initWithFrame:CGRectMake(0, 0, 200, 100)
+                                  initWithFrame:self.bounds
                                   image:[UIImage imageNamed:@"R0010020"]];
   panoramaView.controlMethod = CTPanoramaControlMethodMotion;
   [self addSubview:panoramaView];

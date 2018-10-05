@@ -19,7 +19,8 @@ export default class RN360ImageViewer extends React.Component {
         <PanoramaView
           style={{
             backgroundColor: 'red',
-            flex: 1
+            width: 200,
+            height: 100,
           }}
         />
       </View>
@@ -30,7 +31,7 @@ export default class RN360ImageViewer extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'row',
+    flexDirection: 'column',
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
