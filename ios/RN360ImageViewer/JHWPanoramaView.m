@@ -48,6 +48,7 @@ RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
   CTPanoramaView *panoramaView = [[CTPanoramaView alloc]
                                   initWithFrame:CGRectMake(0, 0, 200, 100)
                                   image:[UIImage imageNamed:@"R0010020"]];
+  panoramaView.controlMethod = CTPanoramaControlMethodMotion;
   [self addSubview:panoramaView];
 }
 
