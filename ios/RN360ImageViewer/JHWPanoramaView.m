@@ -6,7 +6,6 @@
 //  Copyright © 2018 Facebook. All rights reserved.
 //
 
-#import <React/UIView+React.h>
 #import "JHWPanoramaView.h"
 
 @implementation JHWPanoramaView
